@@ -20,6 +20,6 @@ import "time"
 }
 
 sprint: [SprintID=string]: #Sprint & {
-    id: SprintID
+    id: *SprintID | string
 }
 
