@@ -3,7 +3,7 @@ package scrum
 import "time"
 
 #Sprint: {
-    id: _
+    id: string
     goal: string
     statusGoal: *"Not defined" | "Success" | "Fail"
     status: *"Not Started Yet" | "In Progress" | "Done" | "Cancelled" 
